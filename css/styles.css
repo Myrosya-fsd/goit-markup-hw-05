@@ -625,6 +625,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .modal-open:focus{
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
+  }
+
+  .modal-icon-close{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .modal-title {
@@ -678,10 +683,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 
-.textarea-modal{
-  width: 100%;
-}
-
 .modal-fieid{
   margin-bottom: 8px;
 }
@@ -716,7 +717,7 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.textarea-modal::after{
+.textarea-modal:after{
   border-color: #4d5ae5; 
 }
 
