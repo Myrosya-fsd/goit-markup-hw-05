@@ -679,7 +679,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 336px;
 }
 
-.modal-fieid-texarea{
+.modal-fieid-textarea{
   margin-bottom: 16px;
 }
 
@@ -718,7 +718,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-modal:hover,
-.textarea-modal:after{
+.textarea-modal:focus{
   border-color: #4d5ae5; 
 }
 
@@ -773,7 +773,7 @@ border: none;
 cursor: pointer;
 margin: 0 auto;
 display: block;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
